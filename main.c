@@ -34,6 +34,12 @@ int main()
         printf("\n%c", (*(p+i)).b);
     }
 
+    for(int i=0 ; i<2 ; i++)
+    {
+        printf("\n%d", (p+i)->a);//muevo la direccion de memoria con aritmetica de punteros
+        printf("\n%c", (p+i)->b);//luevo uso el operador flecha para acceder al dato en vez de * y .
+    }
+
 
 
 
