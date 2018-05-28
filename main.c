@@ -14,8 +14,6 @@ int main()
 
     p = &datito;
 
-
-
     printf("\n%d", (*p).a);
     printf("\n%c", (*p).b);
     //se pone entre parentesis, porque el operador punto tiene prioridad anterior que el *
